@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — JobHero</title>
+<style>
+  :root {
+    --ink: #1c2230;
+    --ink-soft: #4a5268;
+    --paper: #fbfaf7;
+    --panel: #f1efe8;
+    --line: #dedad0;
+    --amber: #c17a3d;
+    --amber-deep: #96582a;
+    --focus: #2f6f5e;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Georgia, 'Times New Roman', serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+
+  a { color: var(--amber-deep); }
+  a:focus-visible, button:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+  .masthead {
+    border-bottom: 1px solid var(--line);
+    padding: 3rem 1.5rem 2rem;
+  }
+
+  .masthead-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .mark {
+    width: 44px; height: 44px; flex: none;
+    border-radius: 10px;
+    background: linear-gradient(155deg, var(--amber), var(--amber-deep));
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 700; font-size: 1.1rem;
+  }
+
+  .masthead h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+
+  .masthead p {
+    margin: 0.15rem 0 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+  }
+
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 5rem;
+  }
+
+  .lede {
+    font-size: 1.05rem;
+    color: var(--ink-soft);
+    border-left: 3px solid var(--amber);
+    padding-left: 1rem;
+    margin: 0 0 2.5rem;
+  }
+
+  nav.toc {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.9rem;
+  }
+
+  nav.toc p {
+    margin: 0 0 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+    font-weight: 600;
+  }
+
+  nav.toc ol {
+    margin: 0;
+    padding-left: 1.1rem;
+    columns: 2;
+    gap: 1.5rem;
+  }
+
+  nav.toc li { margin-bottom: 0.4rem; break-inside: avoid; }
+  nav.toc a { text-decoration: none; }
+  nav.toc a:hover { text-decoration: underline; }
+
+  section {
+    margin-bottom: 2.75rem;
+    scroll-margin-top: 1.5rem;
+  }
+
+  section h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin: 0 0 0.9rem;
+    color: var(--ink);
+  }
+
+  section h2 .num {
+    font-size: 0.8rem;
+    color: var(--amber-deep);
+    font-weight: 700;
+  }
+
+  section p, section li { color: var(--ink); }
+  section ul { padding-left: 1.3rem; }
+  section li { margin-bottom: 0.5rem; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.95rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+
+  th {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+  }
+
+  .contact-card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  .contact-card a { font-weight: 600; }
+
+  footer {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1.5rem 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+  }
+
+  @media (max-width: 520px) {
+    nav.toc ol { columns: 1; }
+    body { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="mark">JH</div>
+    <div>
+      <h1>JobHero</h1>
+      <p>Privacy Policy · Effective July 16, 2026</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <p class="lede">
+    JobHero is an AI-powered job search assistant that helps you find roles, tailor your CV,
+    generate cover letters, and prepare for interviews. This policy explains what information
+    the app collects, how it's used, who it's shared with, and the choices you have.
+  </p>
+
+  <nav class="toc" aria-label="Table of contents">
+    <p>On this page</p>
+    <ol>
+      <li><a href="#collect">Information we collect</a></li>
+      <li><a href="#use">How we use it</a></li>
+      <li><a href="#thirdparty">Third-party services</a></li>
+      <li><a href="#storage">Storage &amp; security</a></li>
+      <li><a href="#retention">Retention &amp; deletion</a></li>
+      <li><a href="#rights">Your rights &amp; choices</a></li>
+      <li><a href="#children">Children's privacy</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <section id="collect">
+    <h2><span class="num">01</span> Information we collect</h2>
+    <p>We collect only what's needed to run JobHero's core features:</p>
+    <table>
+      <tr><th>Category</th><th>Examples</th></tr>
+      <tr><td>Account information</td><td>Name and email address, used to create and sign in to your account</td></tr>
+      <tr><td>CV / résumé content</td><td>The file or text you upload, parsed to extract your skills, experience, and job history</td></tr>
+      <tr><td>Job search activity</td><td>Search terms, job listings you view or save, and match preferences</td></tr>
+      <tr><td>Generated content</td><td>Cover letters and interview-prep responses created on your behalf</td></tr>
+    </table>
+    <p>We don't request access to contacts, camera, microphone, or location, and JobHero doesn't contain advertising or analytics SDKs.</p>
+  </section>
+
+  <section id="use">
+    <h2><span class="num">02</span> How we use it</h2>
+    <ul>
+      <li>To match your CV against live job listings and rank relevant opportunities</li>
+      <li>To generate tailored cover letters and interview preparation material</li>
+      <li>To maintain your account and keep your saved searches and preferences in sync across sessions</li>
+      <li>To troubleshoot issues and keep the app secure and reliable</li>
+    </ul>
+    <p>We do not sell your personal information, and we do not use your CV content to train AI models.</p>
+  </section>
+
+  <section id="thirdparty">
+    <h2><span class="num">03</span> Third-party services</h2>
+    <p>JobHero relies on a small set of service providers to function. Each only receives the data it needs to perform its role:</p>
+    <table>
+      <tr><th>Provider</th><th>Purpose</th><th>Data involved</th></tr>
+      <tr><td>Supabase</td><td>Authentication and data storage</td><td>Account details, CV content, saved searches</td></tr>
+      <tr><td>Anthropic Claude API</td><td>CV parsing, job matching, cover letter and interview-prep generation</td><td>CV content and prompts relevant to the request</td></tr>
+      <tr><td>Adzuna API</td><td>Live job listing data</td><td>Search terms (no personal data sent)</td></tr>
+    </table>
+    <p>These providers process data under their own privacy and security terms and only for the purpose of delivering JobHero's features to you.</p>
+  </section>
+
+  <section id="storage">
+    <h2><span class="num">04</span> Storage &amp; security</h2>
+    <p>
+      Your data is stored on Supabase's managed infrastructure with encryption in transit.
+      Access to your account data is restricted to what's needed to operate the app. While we take
+      reasonable steps to protect your information, no method of transmission or storage is
+      completely secure, and we can't guarantee absolute security.
+    </p>
+  </section>
+
+  <section id="retention">
+    <h2><span class="num">05</span> Retention &amp; deletion</h2>
+    <p>
+      We retain your account data for as long as your account is active. You can delete your CV,
+      saved searches, or generated content at any time from within the app. If you delete your
+      account, your personal data is permanently removed from our systems, except where we're
+      required to retain limited records for legal or security purposes.
+    </p>
+  </section>
+
+  <section id="rights">
+    <h2><span class="num">06</span> Your rights &amp; choices</h2>
+    <ul>
+      <li><strong>Access:</strong> you can view the data associated with your account within the app</li>
+      <li><strong>Correction:</strong> you can update your profile and CV at any time</li>
+      <li><strong>Deletion:</strong> you can delete individual items or your entire account</li>
+      <li><strong>Portability:</strong> contact us to request a copy of your data in a portable format</li>
+    </ul>
+    <p>If you're in a region with additional statutory rights (such as the EEA or UK), those rights apply to you in full alongside the choices above.</p>
+  </section>
+
+  <section id="children">
+    <h2><span class="num">07</span> Children's privacy</h2>
+    <p>
+      JobHero is intended for job seekers and is not directed at children under 16. We don't
+      knowingly collect personal information from children. If you believe a child has provided
+      us with personal data, please contact us and we'll remove it.
+    </p>
+  </section>
+
+  <section id="changes">
+    <h2><span class="num">08</span> Changes to this policy</h2>
+    <p>
+      We may update this policy as JobHero evolves. Material changes will be reflected by updating
+      the effective date at the top of this page. Continued use of the app after changes take effect
+      constitutes acceptance of the revised policy.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2><span class="num">09</span> Contact</h2>
+    <div class="contact-card">
+      <p>Questions about this policy or your data? Reach out directly:</p>
+      <p><a href="mailto:farukbaliyu23@gmail.com">farukbaliyu23@gmail.com</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  JobHero — built with Flutter, Supabase, and the Claude API. This policy applies to the JobHero mobile application available on Google Play.
+</footer>
+
+</body>
+</html>
